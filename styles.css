@@ -1,1 +1,49 @@
-/*  your css code here. If applicable */
+/* styles.css */
+
+:root {
+    background-color: rgb(135, 206, 235);
+}
+
+/* Style the first paragraph inside the article */
+article p:first-child {
+    color: white;
+    background-color: black;
+}
+
+/* Style the second paragraph inside the article */
+article p:nth-child(2) {
+    color: inherit;
+}
+
+/* Style the third paragraph inside the article */
+article p:last-child {
+    color: red;
+}
+
+/* Style the list items */
+ul li {
+    background-color: gray;
+    width: 50%;
+    padding: 10px;
+}
+
+/* Style every odd list item (1st, 3rd, 5th) */
+ul li:nth-child(odd) {
+    background-color: white;
+}
+
+/* Style the first list item */
+ul li:first-child {
+    font-size: 22px;
+}
+
+/* Style the last list item */
+ul li:last-child {
+    font-size: 22px;
+}
+
+/* Style the third-to-last list item */
+ul li:nth-last-child(3) {
+    background-color: pink;
+}
+
